@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 
 const targetUrl = 'https://obsidian-ai-chatbot.netlify.app/.netlify/functions/chat';
-const messagesPerBatch = 1;
-const requestIntervalMs = 1;
+const messagesPerBatch = 25;
+const requestIntervalMs = 250;
 
 function generatePayload(i) {
   return { message: `Hello from request ${i}` };
