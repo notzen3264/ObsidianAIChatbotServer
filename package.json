@@ -1,0 +1,14 @@
+{
+  "name": "obsidian-ai-chatbot-server",
+  "version": "1.0.0",
+  "description": "High-speed request loop for Netlify function testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.9"
+  },
+  "author": "fake",
+  "license": "fake"
+}
